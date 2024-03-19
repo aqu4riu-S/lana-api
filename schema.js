@@ -24,8 +24,11 @@ export const typeDefs = `#graphql
 
     type Query {
         reviews: [Review]
+        review(id: ID!): Review
         albums: [Album]
+        album(id: ID!): Album
         authors: [Author]
+        author(id: ID!): Author
     }
 `;
 

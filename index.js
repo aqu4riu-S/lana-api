@@ -15,12 +15,24 @@ const resolvers = {
       return db.albums;
     },
 
+    album(_, args) {
+      return db.albums.find((album) => album.id === args.id);
+    },
+
     reviews() {
       return db.reviews;
     },
 
+    review(_, args) {
+      return db.reviews.find((review) => review.id === args.id);
+    },
+
     authors() {
-      return db.author;
+      return db.authors;
+    },
+
+    author(_, args) {
+      return db.authors.find((author) => author.id === args.id);
     },
   },
 };

@@ -1,36 +1,36 @@
 let albums = [
   {
-    id: 1,
+    id: "1",
     title: "Born To Die",
     genre: ["Alternative pop", "baroque pop", "trip hop", "indie pop"],
     releasedYear: 2012,
   },
   {
-    id: 2,
+    id: "2",
     title: "Paradise",
     genre: ["Baroque pop", "trip hop"],
     releasedYear: 2012,
   },
   {
-    id: 3,
+    id: "3",
     title: "Ultraviolence",
     genre: ["Psychedelic rock", "desert rock", "dream pop"],
     releasedYear: 2014,
   },
   {
-    id: 4,
+    id: "4",
     title: "Honeymoon",
     genre: ["Baroque pop", "dream pop", "trip hop", "ambient"],
     releasedYear: 2015,
   },
   {
-    id: 5,
+    id: "5",
     title: "Lust for Life",
     genre: ["Pop", "alt-pop", "folk", "trap-pop"],
     releasedYear: 2017,
   },
   {
-    id: 6,
+    id: "6",
     title: "Norman Fucking Rockwell",
     genre: [
       "Soft rock",
@@ -42,19 +42,19 @@ let albums = [
     releasedYear: 2019,
   },
   {
-    id: 7,
+    id: "7",
     title: "Chemtrails over the country club",
     genre: ["Folk", "Americana", "country folk"],
     releasedYear: 2021,
   },
   {
-    id: 8,
+    id: "8",
     title: "Blue Banisters",
     genre: ["Folk", "pop", "jazz", "Americana"],
     releasedYear: 2021,
   },
   {
-    id: 9,
+    id: "9",
     title: "Did You Know",
     genre: ["Americana", "alt-pop"],
     releasedYear: 2023,
@@ -63,7 +63,7 @@ let albums = [
 
 let reviews = [
   {
-    id: 1,
+    id: "1",
     source: "NOW Magazine",
     rating: 100,
     content:
@@ -71,7 +71,7 @@ let reviews = [
     album_id: 6,
   },
   {
-    id: 2,
+    id: "2",
     source: "New Musical Express (NME)",
     rating: 100,
     content:
@@ -79,7 +79,7 @@ let reviews = [
     album_id: 6,
   },
   {
-    id: 3,
+    id: "3",
     source: "Pitchfork",
     rating: 94,
     content:
@@ -87,7 +87,7 @@ let reviews = [
     album_id: 6,
   },
   {
-    id: 4,
+    id: "4",
     source: "Variety",
     rating: 91,
     content:
@@ -95,7 +95,7 @@ let reviews = [
     album_id: 9,
   },
   {
-    id: 5,
+    id: "5",
     source: "Los Angeles Times",
     rating: 90,
     content:
@@ -103,14 +103,14 @@ let reviews = [
     album_id: 9,
   },
   {
-    id: 6,
+    id: "6",
     source: "Exclaim",
     rating: 90,
     content: "It's a lurid, scuzzy, electrifying return to form.",
     album_id: 9,
   },
   {
-    id: 7,
+    id: "7",
     source: "The A.V. Club",
     rating: 83,
     content:
@@ -118,7 +118,7 @@ let reviews = [
     album_id: 8,
   },
   {
-    id: 8,
+    id: "8",
     source: "Variety",
     rating: 82,
     content:
@@ -126,7 +126,7 @@ let reviews = [
     album_id: 8,
   },
   {
-    id: 9,
+    id: "9",
     source: "Rolling Stone",
     rating: 80,
     content:
@@ -137,35 +137,35 @@ let reviews = [
 
 let authors = [
   {
-    id: 1,
+    id: "1",
     name: "The A.V. Club",
   },
   {
-    id: 2,
+    id: "2",
     name: "Variety",
   },
   {
-    id: 3,
+    id: "3",
     name: "Rolling Stone",
   },
   {
-    id: 4,
+    id: "4",
     name: "Los Angeles Time",
   },
   {
-    id: 5,
+    id: "5",
     name: "Exclaim",
   },
   {
-    id: 6,
+    id: "6",
     name: "NOW Magazine",
   },
   {
-    id: 7,
+    id: "7",
     name: "New Musical Express (NME)",
   },
   {
-    id: 8,
+    id: "8",
     name: "Pitchfork",
   },
 ];
