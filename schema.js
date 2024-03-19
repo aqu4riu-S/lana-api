@@ -7,6 +7,7 @@ export const typeDefs = `#graphql
         score: Int!
         genre: [String!]!
         releasedYear: Int!
+        reviews: [Review!]
     }
 
     type Review {
@@ -14,12 +15,15 @@ export const typeDefs = `#graphql
         source: String!
         rating: Int!
         content: String!
+        album: Album!
+        author: Author!
     }
 
     type Author {
         id: ID!
         name: String!
         verified: Boolean
+        reviews: [Review!]
     }
 
     type Query {

@@ -68,7 +68,8 @@ let reviews = [
     rating: 100,
     content:
       "Piano, reverb and guitar fuzz make it Del Rey’s dreamiest and most cohesive album since 2015’s Honeymoon and her most rock-inspired since 2014’s Ultraviolence. The National Anthem singer adds new shade to her ongoing California period, re-evaluating the narrative of life in the United States that she’s built her brand on.",
-    album_id: 6,
+    album_id: "6",
+    author_id: "6",
   },
   {
     id: "2",
@@ -76,7 +77,8 @@ let reviews = [
     rating: 100,
     content:
       "Lana Del Rey is large – she contains multitudes, and the way she balances and embodies them on her fifth album is nothing short of stunning.",
-    album_id: 6,
+    album_id: "6",
+    author_id: "7",
   },
   {
     id: "3",
@@ -84,7 +86,8 @@ let reviews = [
     rating: 94,
     content:
       "On her elegant and complex fifth album, Lana Del Rey sings exquisitely of freedom and transformation and the wreckage of being alive. It establishes her as one of America’s greatest living songwriters.",
-    album_id: 6,
+    album_id: "6",
+    author_id: "8",
   },
   {
     id: "4",
@@ -92,7 +95,8 @@ let reviews = [
     rating: 91,
     content:
       "This album is a rich feast. Even if, to get the full gist of things, it does call for research and multitasking. ... As for the writing itself, there’s not an unfascinating moment on the album, whether she’s making characteristically quotable, glaringly bold declarations or leading attentive superfans into obscure rabbit holes.",
-    album_id: 9,
+    album_id: "9",
+    author_id: "2",
   },
   {
     id: "5",
@@ -100,14 +104,16 @@ let reviews = [
     rating: 90,
     content:
       "Line by line, her lyrics deliver a staggering blend of the profound and the vernacular. ... At 77 minutes in length, “Ocean Blvd” risks tiring the listener’s ear, which is why Del Rey and her co-producers — Antonoff along with Drew Erickson, Zach Dawes and Mike Hermosa — keep folding unexpected sounds and textures into the album’s largely piano-based arrangements.",
-    album_id: 9,
+    album_id: "9",
+    author_id: "4",
   },
   {
     id: "6",
     source: "Exclaim",
     rating: 90,
     content: "It's a lurid, scuzzy, electrifying return to form.",
-    album_id: 9,
+    album_id: "9",
+    author_id: "5",
   },
   {
     id: "7",
@@ -115,7 +121,8 @@ let reviews = [
     rating: 83,
     content:
       "While Chemtrails was cause for concern that Del Rey had perhaps lost her magic touch, Banisters is a reminder that when the singer-songwriter is in charge of her vision and fully taps into her emotions, she’s still capable of crafting breathtaking beauty.",
-    album_id: 8,
+    album_id: "8",
+    author_id: "1",
   },
   {
     id: "8",
@@ -123,7 +130,8 @@ let reviews = [
     rating: 82,
     content:
       "“Blue Banisters” might lack the majesty of “Norman Fucking Rockwell” or the commercial sheen of “Born To Die,” but it offers a rare glimpse of an artist securing her legacy, one song at a time.",
-    album_id: 8,
+    album_id: "8",
+    author_id: "2",
   },
   {
     id: "9",
@@ -131,7 +139,8 @@ let reviews = [
     rating: 80,
     content:
       "She has often made intimacy seem transactional. But here, it feels pure.",
-    album_id: 8,
+    album_id: "8",
+    author_id: "3",
   },
 ];
 

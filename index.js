@@ -35,6 +35,28 @@ const resolvers = {
       return db.authors.find((author) => author.id === args.id);
     },
   },
+
+  Album: {
+    reviews(parent) {
+      return db.reviews.filter((review) => review.album_id === parent.id);
+    },
+  },
+
+  Author: {
+    reviews(parent) {
+      return db.reviews.filter((review) => review.author_id === parent.id);
+    },
+  },
+
+  Review: {
+    album(parent) {
+      return db.albums.find((album) => album.id === parent.album_id);
+    },
+
+    author(parent) {
+      return db.authors.find((author) => author.id === parent.author_id);
+    },
+  },
 };
 
 const server = new ApolloServer({
