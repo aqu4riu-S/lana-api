@@ -1,62 +1,62 @@
 [
     {
-        "id": 1,
+        "id": "1",
         "title": "Born to Die",
         "artist": "Lana Del Rey",
         "publisher": "Polydor",
         "score": "62"
     },
     {
-        "id": 2,
+        "id": "2",
         "title": "Paradise [EP]",
         "artist": "Lana Del Rey",
         "publisher": "Interscope",
         "score": "64"
     },
     {
-        "id": 3,
+        "id": "3",
         "title": "Ultraviolence",
         "artist": "Lana Del Rey",
         "publisher": "Interscope",
         "score": "74"
     },
     {
-        "id": 4,
+        "id": "4",
         "title": "Honeymoon",
         "artist": "Lana Del Rey",
         "publisher": "Interscope",
         "score": "78"
     },
     {
-        "id": 5,
+        "id": "5",
         "title": "Lust for Life",
         "artist": "Lana Del Rey",
         "publisher": "Interscope",
         "score": "77"
     },
     {
-        "id": 6,
+        "id": "6",
         "title": "Norman Fucking Rockwell!",
         "artist": "Lana Del Rey",
         "publisher": "Interscope",
         "score": "87"
     },
     {
-        "id": 7,
+        "id": "7",
         "title": "Chemtrails Over the Country Club",
         "artist": "Lana Del Rey",
         "publisher": "Interscope",
         "score": "81"
     },
     {
-        "id": 8,
+        "id": "8",
         "title": "Blue Banisters",
         "artist": "Lana Del Rey",
         "publisher": "Interscope",
         "score": "80"
     },
     {
-        "id": 9,
+        "id": "9",
         "title": "Did You Know That There's a Tunnel Under Ocean Blvd.",
         "artist": "Lana Del Rey",
         "publisher": "Interscope",
